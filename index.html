@@ -1,145 +1,100 @@
-
-
-Richiesta:
-
-Scadenza:
-
-Priorità:
-
-Contesto/link/documenti:
-
-Output desiderato:
-
-Note aggiuntive:</pre>
-          <button class="copy-button" type="button" data-copy-template>
-            Copia modello
-          </button>
-          <p class="copy-feedback" aria-live="polite"></p>
-        </div>
-      </section>
-
-      <section class="examples section-band">
-        <div class="section-heading">
-          <span class="section-kicker">Esempi</span>
-          <h2>Richieste ben formulate</h2>
-        </div>
-        <div class="example-grid">
-          <article>
-            <h3>Verifica atto</h3>
-            <p><strong>Richiedente:</strong> Segreteria</p>
-            <p>
-              Verificare la determina n. 122 pubblicata all'Albo e segnalare
-              eventuali adempimenti.
-            </p>
-            <span>Output: sintesi, scadenze, rischi e azioni richieste.</span>
-          </article>
-          <article>
-            <h3>Bozza comunicazione</h3>
-            <p><strong>Richiedente:</strong> Presidente</p>
-            <p>
-              Preparare una nota alla Regione Basilicata sullo stato del Piano
-              annuale 2026.
-            </p>
-            <span>Output: bozza nota formale con tono istituzionale.</span>
-          </article>
-          <article>
-            <h3>Controllo scadenze</h3>
-            <p><strong>Richiedente:</strong> Amministrazione</p>
-            <p>
-              Estrarre le scadenze rilevanti dai documenti nuovi caricati nella
-              settimana.
-            </p>
-            <span>Output: elenco cronologico con azione consigliata.</span>
-          </article>
-        </div>
-      </section>
-
-      <section id="report" class="content-split reverse">
-        <div class="section-heading compact">
-          <span class="section-kicker">Report</span>
-          <h2>Come leggere le priorità</h2>
-          <p>
-            Il report deve mettere in evidenza compiti ricevuti, novità nelle
-            cartelle, pubblicazioni, scadenze, azioni richieste, rischi e punti
-            da approfondire.
-          </p>
-        </div>
-        <div class="priority-stack">
-          <article>
-            <strong>Alta</strong>
-            <span>Da valutare rapidamente.</span>
-          </article>
-          <article>
-            <strong>Media</strong>
-            <span>Da programmare.</span>
-          </article>
-          <article>
-            <strong>Bassa</strong>
-            <span>Da tenere in osservazione.</span>
-          </article>
-        </div>
-      </section>
-
-      <section id="limiti" class="section-band">
-        <div class="section-heading">
-          <span class="section-kicker">Perimetro</span>
-          <h2>Cosa può fare e cosa richiede conferma umana</h2>
-        </div>
-        <div class="limits-grid">
-          <article>
-            <h3>L'assistente può</h3>
-            <ul>
-              <li>Leggere e sintetizzare documenti caricati.</li>
-              <li>Segnalare scadenze e rischi amministrativi.</li>
-              <li>Confrontare documenti con piani e regolamenti.</li>
-              <li>Preparare bozze di email, note, checklist e promemoria.</li>
-              <li>Creare report in Google Doc e segnalare atti rilevanti.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Serve conferma umana per</h3>
-            <ul>
-              <li>Inviare email ufficiali.</li>
-              <li>Protocollare, firmare o approvare documenti.</li>
-              <li>Modificare atti istituzionali.</li>
-              <li>Prendere decisioni amministrative.</li>
-              <li>Cancellare, spostare o rinominare documenti.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="best-practices">
-        <div class="section-heading compact">
-          <span class="section-kicker">Buone pratiche</span>
-          <h2>Checklist finale</h2>
-        </div>
-        <ul class="practice-list">
-          <li>Usare titoli chiari per i documenti.</li>
-          <li>Evitare nomi generici come “richiesta”, “documento” o “nota”.</li>
-          <li>Inserire sempre una scadenza, anche indicativa.</li>
-          <li>Specificare l'output desiderato.</li>
-          <li>Separare richieste diverse in documenti diversi.</li>
-          <li>Non inserire richieste operative nella cartella Report.</li>
-          <li>Usare Documenti per istruzioni solo per contesto stabile.</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>
-        Formula consigliata: “Mi serve che tu controlli/verifichi/prepari/confronti
-        [oggetto], usando [documenti o link], entro [data], e produca [tipo di output].”
-      </p>
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guida Assistente Amministrativo</title>
+    <meta
+      name="description"
+      content="Guida operativa per usare le cartelle Drive e formulare richieste all'assistente amministrativo."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inizio" aria-label="Torna all'inizio">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span>Assistente amministrativo</span>
+      </a>
+      <nav class="top-nav" aria-label="Sezioni principali">
+        <a href="#cartelle">Cartelle</a>
+        <a href="#automazione">Automazione</a>
+        <a href="#richieste">Richieste</a>
+        <a href="#report">Report</a>
+        <a href="#limiti">Limiti</a>
+      </nav>
       <a
+        class="drive-link"
         href="https://drive.google.com/drive/folders/1OW_cdoLvcN2qBV03yr8OKcoYk_s92Ka3"
         target="_blank"
         rel="noreferrer"
       >
-        Apri la cartella Drive
+        Apri Drive
       </a>
-    </footer>
+    </header>
 
-    <script src="script.js"></script>
-  </body>
-</html>
+    <main id="inizio">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">Fondazione Lucana Film Commission</p>
+          <h1>Guida operativa per l'uso dell'assistente amministrativo</h1>
+          <p class="lead">
+            Un percorso pratico per organizzare documenti, richieste,
+            scadenze, report e verifiche con un supporto AI al servizio della
+            Direzione Amministrativa.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="primary-action"
+              href="https://drive.google.com/drive/folders/1OW_cdoLvcN2qBV03yr8OKcoYk_s92Ka3"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Accedi alla cartella Drive
+            </a>
+            <a class="secondary-action" href="#modello">Vai al modello</a>
+          </div>
+        </div>
+        <div class="ai-panel" aria-label="Schema operativo assistente AI">
+          <div class="signal-line"></div>
+          <div class="signal-line short"></div>
+          <div class="node-grid" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="status-card">
+            <span class="status-dot"></span>
+            <strong>Flusso attivo</strong>
+            <p>Compiti, documenti, scadenze e report in un unico metodo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="automazione" class="automation-section section-band">
+        <div class="section-heading">
+          <span class="section-kicker">Automazione attiva</span>
+          <h2>Cosa fa davvero l'assistente ogni mattina</h2>
+          <p>
+            Dal lunedì al venerdì, alle 8:30, l'assistente si attiva da solo.
+            Non aspetta una richiesta in chat: entra nella cartella Drive,
+            controlla cosa è stato aggiunto o modificato, legge eventuali
+            compiti lasciati dagli uffici, consulta le fonti istituzionali
+            collegate e prepara un nuovo report amministrativo in Google Doc.
+          </p>
+        </div>
+        <div class="automation-flow">
+          <article class="automation-summary">
+            <h3>In pratica</h3>
+            <p>
+              L'automazione funziona come una rassegna amministrativa
+              quotidiana: raccoglie novità, controlla richieste e fonti,
+              segnala rischi e scadenze, poi lascia tutto in un report ordinato
+              per il Direttore Amministrativo.
+            </p>
+          </article>
+          <div class="automation-steps">
+            <article>
+              <span>1</span>
+              <h3>Prima guarda la cartella Drive</h3>
+              <p>
